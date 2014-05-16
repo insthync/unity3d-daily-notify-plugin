@@ -3,7 +3,7 @@ using System.Collections;
 using genc.genpon;
 using Prime31;
 
-public class Main : MonoBehaviour {
+public class example : MonoBehaviour {
 
 	public DailyNotifyObject dailyNotifyObject;
 	void Awake () {
