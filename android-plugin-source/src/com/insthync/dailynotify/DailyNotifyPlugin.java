@@ -18,7 +18,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-package com.bay66.dailynotify;
+package com.insthync.dailynotify;
 
 import java.util.Calendar;
 
@@ -32,7 +32,7 @@ import com.unity3d.player.UnityPlayer;
 
 public class DailyNotifyPlugin {
 	
-	public static final String PREFS_NAME = "BYDailyNotify";
+	public static final String PREFS_NAME = "DailyNotify";
 	
 	public DailyNotifyPlugin()
 	{
@@ -43,7 +43,7 @@ public class DailyNotifyPlugin {
 		final Activity a = UnityPlayer.currentActivity;
 		a.runOnUiThread(new Runnable() {
 			public void run() {
-				Intent myIntent = new Intent(a, BYDailyNotifyReceiver.class);
+				Intent myIntent = new Intent(a, DailyNotifyReceiver.class);
 				
 				Calendar calendar;
 				PendingIntent pendingIntent;

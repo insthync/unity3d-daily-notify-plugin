@@ -23,7 +23,7 @@ public class DailyNotifyObject : MonoBehaviour {
 		#if UNITY_IPHONE
 		notifier = _DailyNotifyPlugin_Init();
 		#elif UNITY_ANDROID
-		notifier = new AndroidJavaObject("com.bay66.dailynotify.DailyNotifyPlugin");
+		notifier = new AndroidJavaObject("com.insthync.dailynotify.DailyNotifyPlugin");
 		notifier.Call("Init");
 		#endif
 	}

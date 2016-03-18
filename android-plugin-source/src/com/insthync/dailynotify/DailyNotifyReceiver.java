@@ -18,7 +18,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-package com.bay66.dailynotify;
+package com.insthync.dailynotify;
 
 import com.unity3d.player.UnityPlayerNativeActivity;
 
@@ -31,7 +31,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v4.app.NotificationCompat;
 
-public class BYDailyNotifyReceiver extends BroadcastReceiver {
+public class DailyNotifyReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {

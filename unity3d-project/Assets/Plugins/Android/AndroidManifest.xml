@@ -26,7 +26,7 @@
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
             <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
         </activity>
-			<receiver android:name="com.bay66.dailynotify.BYDailyNotifyReceiver"></receiver>
+			<receiver android:name="com.insthync.dailynotify.DailyNotifyReceiver"></receiver>
 </application>
 
 	    <uses-permission android:name="android.permission.INTERNET"/>
